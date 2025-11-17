@@ -1,7 +1,7 @@
 function stringChop(str, size) {
 	let arr=[];
 	
-	for(let i=0;i<str.length;i+=size){
+	for(let i=0;i<str?.length;i+=size){
 		arr.push(str.substring(i, i+size))
 	}
 	
